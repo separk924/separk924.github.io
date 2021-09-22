@@ -1,0 +1,13 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+p, h1{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+}
+img{
+    border: 5px solid #555;
+    margin: auto 10px 10px auto;
+}
