@@ -7,7 +7,15 @@ body{
     color: #414141;
     background-color: #EEEEEE;
 }
-p, h1{
+h1{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+}
+p{
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 10px;
 }
