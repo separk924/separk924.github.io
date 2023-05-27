@@ -42,7 +42,7 @@ li {
 /* The sidebar menu */
 .sidenav {
   padding: 6px 8px 6px 16px;
-  font-family: bg-font;
+  font-family: "bg-font";
   font-size: 50px;
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 230px; /* Set the width of the sidebar */
@@ -58,7 +58,7 @@ li {
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
-  font-family: bg-font;
+  font-family: "bg-font";
   font-size: 20px;
   color: #414141;
   display: block;
@@ -70,7 +70,7 @@ li {
 }
 
 @font-face {
-  font-family: bg-font;
+  font-family: "bg-font";
   src: url(./bg-font/brandon-grotesque-bold-italic-58a8a48221563.otf);
 }
 
