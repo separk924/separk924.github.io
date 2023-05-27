@@ -43,12 +43,12 @@ li {
 .name {
   font-family: "bg-font";
   font-size: 75px;
-  justify-content: center;
   padding-top: 20px;
 }
 
 /* The sidebar menu */
 .sidenav {
+  justify-content: center;
   padding: 6px 8px 6px 16px;
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 300px; /* Set the width of the sidebar */
