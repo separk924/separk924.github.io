@@ -57,6 +57,8 @@ button {
   color: #414141;
   display: block;
   border: none;
+  text-align: center;
+  border-radius: 10px;
 }
 
 /* When you mouse over the navigation links, change their color */
