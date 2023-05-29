@@ -87,8 +87,10 @@ button:hover {
   left: 0;
   background-color: #F3CCCC;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-top: 50px;
   text-align: center;
+  border-right: #707070;
+  padding-bottom: 50px;
 }
 
 @font-face {
