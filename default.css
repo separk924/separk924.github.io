@@ -51,6 +51,7 @@ li {
 /* The navigation menu buttons */
 button {
   padding: 10px 20px;
+  margin-top: 30px;
   font-family: "bg-font";
   font-size: 25px;
   color: #414141;
