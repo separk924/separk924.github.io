@@ -10,33 +10,60 @@
     </head>
     <!-- Side navigation -->
     <div class="sidenav">
-        <img src='photo.jpeg' align= 'left' width='200' alt='A photo of myself'/>
+        <img src='photo.jpeg' width='200' alt='A photo of myself'/>
         <div class="name">SEUNG PARK</div>
-        <a href="#">ABOUT</a>
-        <a href="#">EDUCATION</a>
-        <a href="#">EXPERIENCE</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">PUBLICATIONS</a>
-        <a href="#">HOBBIES AND INTERESTS</a>
+        <button id= "link" onclick="scrollAbout('about')">ABOUT</button>
+        <button id= "link" onclick="scrollAbout('educ')">EDUCATION</button>
+        <button id= "link" onclick="scrollAbout('exp')">EXPERIENCE</button>
+        <button id= "link" onclick="scrollAbout('proj')">PROJECTS</button>
+        <button id= "link" onclick="scrollAbout('pub')">PUBLICATIONS</button>
+        <button id= "link" onclick="scrollAbout('hob')">HOBBIES AND INTERESTS</button>
     </div>
     <!-- Synopsis -->
     <body class='synopsis'>
-        <h1>Moving to America</h1>
-        <p>Hello, my name is Seung Park. My family is originally from Korea, but we immigrated
-            to the states (specifically Alabama) right before I turned 1 years old.
-        </p>
-        <h1>Entering Highschool</h1>
-        <p>My family finally decided to move to Washington state when I was entering into
-            highschool. During my highschool years, I performed in a play, swam in my
-            school's swim team, and sang in the top choir. As the time for graduation
-            approached, I decided to apply to the University of Puget Sound.
-        </p>
-        <h1>Turning Another Chapter In My Life</h1>
-        <p>Upon arriving at UPS I aspired to major in music, but I later
-            decided to switch to become an International Political Economy major. However,
-            I again decided to finally switch majors into Computer Science. I have always tried
-            to run away from all things STEM, but I ended up falling in love with Computer Science.
-        </p>
+        <div class="about">
+            <h1>Moving to America</h1>
+            <p>Hello, my name is Seung Park. My family is originally from Korea, but we immigrated
+                to the states (specifically Alabama) right before I turned 1 years old.
+            </p>
+            <h1>Entering Highschool</h1>
+            <p>My family finally decided to move to Washington state when I was entering into
+                highschool. During my highschool years, I performed in a play, swam in my
+                school's swim team, and sang in the top choir. As the time for graduation
+                approached, I decided to apply to the University of Puget Sound.
+            </p>
+            <h1>Turning Another Chapter In My Life</h1>
+            <p>Upon arriving at UPS I aspired to major in music, but I later
+                decided to switch to become an International Political Economy major. However,
+                I again decided to finally switch majors into Computer Science. I have always tried
+                to run away from all things STEM, but I ended up falling in love with Computer Science.
+            </p>
+        </div>
+        <div class="educ">
+            <p>EDUCATION</p>
+        </div>
+        <div class="exp">
+            <p>EXPERIENCE</p>
+        </div>
+        <div class="proj">
+            <p>PROJECTS</p>
+        </div>
+        <div class="pub">
+            <p>PUBLICATIONS</p>
+        </div>
+        <div class="hob">
+            <p>HOBBIES</p>
+        </div>
         <p>This is the link to my resume --> <a href= 'resume.html'>My Resume</a></p>
+        <script>
+            function scrollFunction(elem) {
+              let e = document.getElementById(elem);
+              e.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+                inline: 'start'
+              });
+            }
+          </script>
     </body>
 </html>
