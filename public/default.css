@@ -5,14 +5,13 @@ body {
 h1 {
   font-family: "century-gothic";
   font-size: 40px;
+  text-align: center;
+  padding-bottom: 20%;
 }
 h2 {
   font-family: "century-gothic";
-  font-size: 30px;
-}
-h3 {
-  font-family: "century-gothic";
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 p {
   font-family: "century-gothic";
@@ -101,4 +100,23 @@ button:hover {
 @font-face {
   font-family: "century-gothic";
   src: url("./century-gothic/CenturyGothic.ttf") format(truetype);
+}
+
+.topic {
+  height: 1000px;
+  margin: auto;
+  width: 80%;
+  padding-top: 20px;
+}
+
+#proj, #pub, #link, #exp {
+  text-align: center;
+}
+
+a {
+  color:#f9acac
+}
+
+a:hover {
+  color:#707070
 }
